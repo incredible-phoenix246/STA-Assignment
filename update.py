@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct 24 2023
+Created on Tue Oct 24 04:23:10 2023
 
 @author: Ayomikun
 """
@@ -12,7 +12,7 @@ import seaborn as sns
 # 1. Load the CSV data
 data = pd.read_csv('test.csv')
 
-# 2.Data Cleaning
+# 2. Extensive Data Cleaning
 # Drop rows with missing values
 data.dropna(subset=['Event_Type', 'Property_Cost'], inplace=True)
 
@@ -37,22 +37,20 @@ mode = data['Property_Cost'].mode().iloc[0]
 std_deviation = data['Property_Cost'].std()
 
 # 4. Construct Graphical Summary
-# Create a line graph for Event_Type vs. Property_Cost
+# Create a line plot for Event_Type vs. Property_Cost
 plt.figure(figsize=(12, 6))
 sns.lineplot(data=data, x='Event_Type', y='Property_Cost', ci=None)
 plt.xticks(rotation=45)
 plt.xlabel('Event Type')
 plt.ylabel('Property Cost')
-plt.title('Event Type vs. Property Cost (Line Graph)')
+plt.title('Event Type vs. Property Cost (Line Plot)')
 plt.show()
 
-# Create a bar plot for Event_Type
-plt.figure(figsize=(10, 6))
-sns.barplot(data=data, x='Event_Type', y='Property_Cost', ci=None)
-plt.xticks(rotation=45)
-plt.xlabel('Event Type')
-plt.ylabel('Property Cost')
-plt.title('Event Type vs. Property Cost (Bar Plot)')
+# Create a pie chart for the distribution of Event_Type vs. Property_Cost
+event_type_vs_property = data.groupby('Event_Type')['Property_Cost'].sum()
+plt.figure(figsize=(8, 8))
+plt.pie(event_type_vs_property, labels=event_type_vs_property.index, autopct='%1.1f%%')
+plt.title('Event Type vs. Property Cost (Pie Chart)')
 plt.show()
 
 # Detailed plot
