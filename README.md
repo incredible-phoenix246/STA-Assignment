@@ -72,6 +72,10 @@ The project assumes a CSV dataset with columns including:
 - The name of the CSV file {e.g: test.csv [the actual name of the file you are using]}
 - The name of the column you are working on {e.g: Event_Type, Property_Cost} [they should follow the order in which they are given in the question]
 
+- for group 3 still working on yr personal file
+
+- Group 4 should send me a dm on how to go on thiers
+
 Ensure your data is in the correct format and provide the path to your CSV file in the script.
 
 Also the script also gives room for you to edit and make changes ti the category you want 
