@@ -16,7 +16,7 @@ data = pd.read_csv('test.csv')
 # Drop rows with missing values
 data.dropna(subset=['Event_Type', 'Property_Cost'], inplace=True)
 
-# Define a function to transform values like '1.3k' to 13000 and '1.3m' to 13000000
+# Function to convert "k" to "1000" and "m" to "1000000"
 def transform_property_cost(value):
     value = str(value)  # Ensure it's a string
     if 'k' in value:
