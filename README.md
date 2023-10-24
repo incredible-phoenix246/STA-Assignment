@@ -55,18 +55,23 @@ Before you begin, make sure you have the following dependencies installed:
 - Run the Python script to perform data analysis:
 
     ```
-    python solution.py
+    python {group name}
     ```
 
     The script will load the CSV data, perform data cleaning, calculate descriptive statistics, and create graphical summaries.
 
+    note also am sitll working on the q3 for both group 2 and 3
+    will update you when am done
 
 ## Data
 
 The project assumes a CSV dataset with columns including:
 
-'Event_Type': Represents the type or category of storm events.
-'Property_Cost': Represents the cost associated with the property related to each storm event.
+- The inputs feild contains the following
+
+- The name of the CSV file {e.g: test.csv [the actual name of the file you are using]}
+- The name of the column you are working on {e.g: Event_Type, Property_Cost} [they should follow the order in which they are given in the question]
+
 Ensure your data is in the correct format and provide the path to your CSV file in the script.
 
 Also the script also gives room for you to edit and make changes ti the category you want 
