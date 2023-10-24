@@ -7,8 +7,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.svm import SVC
 
-# Load your dataset (replace 'your_data.csv' with the actual file path)
-data = pd.read_csv('your_data.csv')
+# Load your dataset (replace 'test.csv' with the actual file path or place it in the same folder as the scripts)
+data = pd.read_csv('test.csv')
 
 # Data preprocessing
 # Encode categorical 'Event_Type' as numerical labels
