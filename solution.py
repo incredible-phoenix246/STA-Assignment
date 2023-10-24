@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # 1. Load the CSV data
-data = pd.read_csv('test.csv')
+data = pd.read_csv('dataset.csv')
 
 # 2. Extensive Data Cleaning
 # Handling missing values, duplicates, and outliers
