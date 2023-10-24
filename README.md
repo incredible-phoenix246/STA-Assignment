@@ -5,6 +5,8 @@ A detailed solution for EGR4201 Assignment.
 
 This project performs data analysis, including data summarization, data cleaning, basic descriptive statistics, and graphical summaries. It is designed to work with a CSV dataset containing information related to storm events, including 'Event_Type' and 'Property_Cost' columns.
 
+It aslo contains a regression model.
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
