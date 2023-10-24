@@ -1,0 +1,20 @@
+Summary Report:
+--- Event_Type Summary ---
+Thunderstorm Wind    13
+Flood                 4
+Strong Wind           2
+Tornado               2
+High Wind             1
+Hail                  1
+Name: Event_Type, dtype: int64
+
+--- Property_Cost Summary ---
+count       23.000000
+mean      6743.478261
+std       7238.145549
+min        100.000000
+25%       3000.000000
+50%       5000.000000
+75%       5000.000000
+max      30000.000000
+Name: Property_Cost, dtype: float64
