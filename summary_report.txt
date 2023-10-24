@@ -29,3 +29,12 @@ min          0.000000
 75%          0.000000
 max      30000.000000
 Name: Property_Cost, dtype: float64
+
+--- Mean ---
+Mean: 1520.5882352941176
+--- Median ---
+Median: 0.0
+--- Mode ---
+Mode: 0.0
+--- Standard Deviation ---
+Standard Deviation: 4408.2132667338965
