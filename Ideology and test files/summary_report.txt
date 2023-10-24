@@ -1,0 +1,40 @@
+Summary Report:
+--- Event_Type Summary ---
+Thunderstorm Wind           29
+Hail                        22
+Drought                      7
+Dense Fog                    6
+Heavy Snow                   6
+Flash Flood                  5
+Flood                        5
+Excessive Heat               4
+High Wind                    4
+High Surf                    3
+Tornado                      2
+Strong Wind                  2
+Marine Thunderstorm Wind     2
+Winter Weather               2
+Blizzard                     1
+Winter Storm                 1
+Debris Flow                  1
+Name: Event_Type, dtype: int64
+
+--- Property_Cost Summary ---
+count      102.000000
+mean      1520.588235
+std       4408.213267
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max      30000.000000
+Name: Property_Cost, dtype: float64
+
+--- Mean ---
+Mean: 1520.5882352941176
+--- Median ---
+Median: 0.0
+--- Mode ---
+Mode: 0.0
+--- Standard Deviation ---
+Standard Deviation: 4408.2132667338965

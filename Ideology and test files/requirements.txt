@@ -1,0 +1,14 @@
+# For data manipulation and analysis.
+pandas==1.3.3
+
+# For data visualization.
+matplotlib==3.4.3
+
+# For scientific and technical computing.
+scipy==1.7.1
+
+# For numerical operations and array handling.
+numpy==1.21.2
+
+# For machine learning and classification models.
+scikit-learn==0.24.2
