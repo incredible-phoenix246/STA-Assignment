@@ -76,6 +76,20 @@ The project assumes a CSV dataset with columns including:
 
 - Group 4 should send me a dm on how to go on thiers
 
+## Additional Note
+
+- to increase the size of the graph before run time
+
+    ```
+    plt.figure(figsize=(12, 6))
+    ```
+
+- Edit this line to the desired size
+
+Futher question should come to the dms
+
+Thanks
+
 Ensure your data is in the correct format and provide the path to your CSV file in the script.
 
 Also the script also gives room for you to edit and make changes ti the category you want 
