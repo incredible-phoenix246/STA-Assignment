@@ -34,7 +34,7 @@ Before you begin, make sure you have the following dependencies installed:
 
    ```bash
    git clone https://github.com/yourusername/data-analysis-project.git
-   cd data-analysis-project
+   cd STA-Assignment
    ```
 
 2. Create a virtual environment (optional but recommended):
