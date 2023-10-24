@@ -1,48 +1,31 @@
 Summary Report:
 --- Event_Type Summary ---
-Thunderstorm Wind           7038
-Flash Flood                 1864
-Hail                         896
-Flood                        803
-Strong Wind                  764
-Tornado                      570
-Lightning                    382
-High Wind                    371
-Winter Storm                 249
-Ice Storm                    154
-Winter Weather               122
-Heavy Snow                   104
-Lake-Effect Snow              94
-Heavy Rain                    75
-Wildfire                      61
-Blizzard                      42
-Tropical Storm                41
-Drought                       35
-Coastal Flood                 34
-Debris Flow                   25
-Frost/Freeze                  24
-Dust Storm                     9
-Dust Devil                     7
-Dense Fog                      7
-Marine Strong Wind             3
-Freezing Fog                   3
-Heat                           3
-Sleet                          3
-Marine Thunderstorm Wind       2
-Excessive Heat                 2
-Cold/Wind Chill                2
-Hurricane                      1
-Marine High Wind               1
-Waterspout                     1
+Thunderstorm Wind           29
+Hail                        22
+Drought                      7
+Dense Fog                    6
+Heavy Snow                   6
+Flash Flood                  5
+Flood                        5
+Excessive Heat               4
+High Wind                    4
+High Surf                    3
+Tornado                      2
+Strong Wind                  2
+Marine Thunderstorm Wind     2
+Winter Weather               2
+Blizzard                     1
+Winter Storm                 1
+Debris Flow                  1
 Name: Event_Type, dtype: int64
 
 --- Property_Cost Summary ---
-count    1.379200e+04
-mean     1.042654e+05
-std      5.392377e+05
-min      5.000000e+01
-25%      2.000000e+03
-50%      7.000000e+03
-75%      2.500000e+04
-max      9.500000e+06
+count      102.000000
+mean      1520.588235
+std       4408.213267
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max      30000.000000
 Name: Property_Cost, dtype: float64

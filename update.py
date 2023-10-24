@@ -10,15 +10,15 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # 1. Load the CSV data
-data = pd.read_csv('dataset.csv')
+data = pd.read_csv('test.csv')
 
 # 2. Extensive Data Cleaning
 # Drop rows with missing values
 data.dropna(subset=['Event_Type', 'Property_Cost'], inplace=True)
 
-# Define a function to transform values like '1.3k' to 13000 and '1.3m' to 13000000
+# Function to Convert "k" to "1000" and "m" to "1000000"
 def transform_property_cost(value):
-    value = str(value)  # Ensure it's a string
+    value = str(value)  
     if 'k' in value:
         return float(value.replace('k', '')) * 1000
     elif 'm' in value:
@@ -37,7 +37,7 @@ property_cost_stats = data['Property_Cost'].describe()
 plt.hist(data['Property_Cost'], bins=20)
 plt.title('Property Cost Distribution')
 plt.xlabel('Property Cost')
-plt.ylabel ('Frequency')
+plt.ylabel('Frequency')
 plt.show()
 
 # Create a bar plot for Event_Type
@@ -75,19 +75,23 @@ with open('summary_report.txt', 'w') as report_file:
     report_file.write("--- Property_Cost Summary ---\n")
     report_file.write(str(property_cost_summary) + "\n")
 
-# 7. Save the cleaned data to a new CSV
-data.to_csv('cleaned_data.csv', index=False)
+# 7. Save the cleaned data to a new CSV with only 'Event_Type' and 'Property_Cost' columns
+data[['Event_Type', 'Property_Cost']].to_csv('new.csv', index=False)
 
-# 8. Plot 'Event_Type' vs. 'Property_Cost'
+# 8. Plot 'Event_Type' vs. 'Property_Cost' - Histogram
 plt.figure(figsize=(12, 6))
-sns.boxplot(data=data, x='Event_Type', y='Property_Cost')
+sns.histplot(data, x='Event_Type', y='Property_Cost')
 plt.xticks(rotation=45)
 plt.xlabel('Event Type')
 plt.ylabel('Property Cost')
-plt.title('Event Type vs. Property Cost')
+plt.title('Event Type vs. Property Cost (Histogram)')
 plt.show()
 
-# 9. Export cleaned data to a new CSV
-data.to_csv('new.csv', index=False)
+# 9. Plot 'Event_Type' vs. 'Property_Cost' - Pie Chart
+plt.figure(figsize=(10, 6))
+event_type_counts = data['Event_Type'].value_counts()
+plt.pie(event_type_counts, labels=event_type_counts.index, autopct='%1.1f%%')
+plt.title('Event Type Distribution (Pie Chart)')
+plt.show()
 
-print("Summary report saved as 'summary_report.txt', your cleaned CSV file is saved as 'cleaned_data.csv', and the cleaned data is also exported to 'new.csv'.")
+print("Summary report saved as 'summary_report.txt', your cleaned CSV file is saved as 'cleaned_data.csv', and the cleaned data with only 'Event_Type' and 'Property_Cost' columns is exported to 'new.csv'.")
