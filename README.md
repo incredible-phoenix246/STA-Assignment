@@ -69,4 +69,6 @@ The project assumes a CSV dataset with columns including:
 'Property_Cost': Represents the cost associated with the property related to each storm event.
 Ensure your data is in the correct format and provide the path to your CSV file in the script.
 
+Also the script also gives room for you to edit and make changes ti the category you want 
+
 
