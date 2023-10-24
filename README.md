@@ -55,7 +55,7 @@ Before you begin, make sure you have the following dependencies installed:
 - Run the Python script to perform data analysis:
 
     ```
-    python data_analysis.py
+    python solution.py
     ```
 
     The script will load the CSV data, perform data cleaning, calculate descriptive statistics, and create graphical summaries.
