@@ -46,9 +46,9 @@ std_deviation = data[property_column].std()
 
 # 6. Construct Graphical Summary
 # Create a line plot for the specified columns
-plt.figure(figsize=(12, 6))
+plt.figure(figsize=(50, 25))
 sns.lineplot(data=data, x=event_column, y=property_column, ci=None)
-plt.xticks(rotation=45)
+plt.xticks(rotation=90)
 plt.xlabel(event_column)
 plt.ylabel(property_column)
 plt.title(f'{event_column} vs. {property_column} (Line Plot)')
@@ -56,15 +56,15 @@ plt.show()
 
 # Create a pie chart for the distribution of the specified columns
 event_vs_property = data.groupby(event_column)[property_column].sum()
-plt.figure(figsize=(8, 8))
+plt.figure(figsize=(50, 50))
 plt.pie(event_vs_property, labels=event_vs_property.index, autopct='%1.1f%%')
 plt.title(f'{event_column} vs. {property_column} (Pie Chart)')
 plt.show()
 
 # Detailed plot
-plt.figure(figsize=(12, 6))
+plt.figure(figsize=(50, 25))
 sns.countplot(data=data, x=event_column)
-plt.xticks(rotation=45)
+plt.xticks(rotation=90)
 plt.xlabel(event_column)
 plt.ylabel('Count')
 plt.title(f'{event_column} Distribution Detailed')
@@ -102,8 +102,12 @@ else:
 
 # 10. Save the test results to a separate file called 'test.txt'
 with open('test.txt', 'w') as test_file:
-    test_file.write(f"--- Test for Differences ---\n")
-    test_file.write(f"T-Test p-value: {p_value} (p < 0.05 is considered {significance})\n")
+    if p_value < 0.05:
+        test_file.write('There is a significant difference between event types and states\n')
+    else:
+        test_file.write('There is no significant difference between event types and states\n')
+        test_file.write('P Value: {}'.format(p_value))
+
 
 # 11. Save the cleaned data to a new CSV with only specified columns
 data[[event_column, property_column]].to_csv('new.csv', index=False)

@@ -1,0 +1,943 @@
+--- Summary Report ---
+
+Data Summary for Event_Type per State:
+              Event_Type                State  Count
+   Astronomical Low Tide               ALASKA      1
+   Astronomical Low Tide             DELAWARE      2
+   Astronomical Low Tide            LOUISIANA      9
+   Astronomical Low Tide           NEW JERSEY      8
+   Astronomical Low Tide         PENNSYLVANIA      4
+   Astronomical Low Tide                TEXAS      2
+               Avalanche           CALIFORNIA      2
+               Avalanche             COLORADO     13
+               Avalanche                IDAHO      1
+               Avalanche              MONTANA      1
+               Avalanche                 UTAH      3
+               Avalanche           WASHINGTON      3
+               Avalanche              WYOMING      6
+                Blizzard               ALASKA     68
+                Blizzard             COLORADO     14
+                Blizzard          CONNECTICUT      8
+                Blizzard                IDAHO      3
+                Blizzard             ILLINOIS      3
+                Blizzard                 IOWA      5
+                Blizzard               KANSAS     17
+                Blizzard                MAINE     11
+                Blizzard        MASSACHUSETTS     15
+                Blizzard             MICHIGAN      5
+                Blizzard            MINNESOTA     60
+                Blizzard              MONTANA     15
+                Blizzard             NEBRASKA     45
+                Blizzard               NEVADA      1
+                Blizzard        NEW HAMPSHIRE      4
+                Blizzard           NEW MEXICO      5
+                Blizzard             NEW YORK      4
+                Blizzard         NORTH DAKOTA    156
+                Blizzard             OKLAHOMA      4
+                Blizzard         RHODE ISLAND      4
+                Blizzard         SOUTH DAKOTA     50
+                Blizzard                TEXAS     36
+                Blizzard                 UTAH      2
+                Blizzard              WYOMING      7
+           Coastal Flood               ALASKA     12
+           Coastal Flood           CALIFORNIA      1
+           Coastal Flood          CONNECTICUT      2
+           Coastal Flood             DELAWARE      5
+           Coastal Flood              GEORGIA      1
+           Coastal Flood            LOUISIANA      2
+           Coastal Flood                MAINE      4
+           Coastal Flood        MASSACHUSETTS     15
+           Coastal Flood        NEW HAMPSHIRE      1
+           Coastal Flood           NEW JERSEY     20
+           Coastal Flood             NEW YORK     14
+           Coastal Flood       NORTH CAROLINA      1
+           Coastal Flood          PUERTO RICO      2
+           Coastal Flood       SOUTH CAROLINA      8
+           Coastal Flood                TEXAS      3
+           Coastal Flood             VIRGINIA      4
+         Cold/Wind Chill               ALASKA      1
+         Cold/Wind Chill              ARIZONA      6
+         Cold/Wind Chill          CONNECTICUT      2
+         Cold/Wind Chill             ILLINOIS     16
+         Cold/Wind Chill                 IOWA     16
+         Cold/Wind Chill        MASSACHUSETTS      4
+         Cold/Wind Chill             MICHIGAN     19
+         Cold/Wind Chill            MINNESOTA      4
+         Cold/Wind Chill             MISSOURI      1
+         Cold/Wind Chill              MONTANA     14
+         Cold/Wind Chill             NEBRASKA     50
+         Cold/Wind Chill           NEW JERSEY      1
+         Cold/Wind Chill           NEW MEXICO      1
+         Cold/Wind Chill             NEW YORK     31
+         Cold/Wind Chill                 OHIO      1
+         Cold/Wind Chill             OKLAHOMA     31
+         Cold/Wind Chill         PENNSYLVANIA      3
+         Cold/Wind Chill         SOUTH DAKOTA      6
+         Cold/Wind Chill                TEXAS    168
+         Cold/Wind Chill                 UTAH      1
+         Cold/Wind Chill              VERMONT      5
+         Cold/Wind Chill           WASHINGTON      1
+         Cold/Wind Chill        WEST VIRGINIA      4
+         Cold/Wind Chill            WISCONSIN      3
+             Debris Flow              ARIZONA      1
+             Debris Flow           CALIFORNIA      4
+             Debris Flow             COLORADO     16
+             Debris Flow              FLORIDA      1
+             Debris Flow               HAWAII      4
+             Debris Flow              MONTANA      2
+             Debris Flow               NEVADA      1
+             Debris Flow       NORTH CAROLINA     12
+             Debris Flow         PENNSYLVANIA      1
+             Debris Flow                 UTAH     16
+             Debris Flow             VIRGINIA      1
+             Debris Flow           WASHINGTON     12
+               Dense Fog              ALABAMA      1
+               Dense Fog             ARKANSAS      1
+               Dense Fog           CALIFORNIA     52
+               Dense Fog             COLORADO     24
+               Dense Fog             DELAWARE      4
+               Dense Fog DISTRICT OF COLUMBIA      2
+               Dense Fog              GEORGIA      1
+               Dense Fog             ILLINOIS     74
+               Dense Fog              INDIANA      7
+               Dense Fog                 IOWA      1
+               Dense Fog             KENTUCKY     42
+               Dense Fog             MARYLAND     62
+               Dense Fog             MICHIGAN      2
+               Dense Fog             MISSOURI     38
+               Dense Fog              MONTANA      1
+               Dense Fog           NEW JERSEY     24
+               Dense Fog             NEW YORK      6
+               Dense Fog                 OHIO      1
+               Dense Fog             OKLAHOMA      4
+               Dense Fog         PENNSYLVANIA     13
+               Dense Fog                TEXAS     39
+               Dense Fog                 UTAH      7
+               Dense Fog             VIRGINIA    150
+               Dense Fog        WEST VIRGINIA     28
+               Dense Fog            WISCONSIN     22
+             Dense Smoke           CALIFORNIA      3
+                 Drought              ALABAMA     38
+                 Drought              ARIZONA     28
+                 Drought             ARKANSAS    144
+                 Drought             COLORADO    218
+                 Drought               HAWAII    106
+                 Drought             ILLINOIS     54
+                 Drought                 IOWA    109
+                 Drought               KANSAS    240
+                 Drought             KENTUCKY      8
+                 Drought            LOUISIANA     30
+                 Drought            MINNESOTA     63
+                 Drought          MISSISSIPPI      6
+                 Drought             MISSOURI    148
+                 Drought             NEBRASKA    688
+                 Drought           NEW MEXICO    514
+                 Drought             OKLAHOMA    133
+                 Drought         SOUTH DAKOTA     55
+                 Drought                TEXAS   1647
+                 Drought                 UTAH     63
+                 Drought            WISCONSIN     65
+              Dust Devil              ARIZONA      2
+              Dust Devil           CALIFORNIA      1
+              Dust Devil               HAWAII      1
+              Dust Devil                IDAHO      1
+              Dust Devil              MONTANA      1
+              Dust Devil               NEVADA      1
+              Dust Devil           NEW MEXICO      2
+              Dust Devil             VIRGINIA      1
+              Dust Storm              ARIZONA     22
+              Dust Storm           CALIFORNIA      8
+              Dust Storm             COLORADO      4
+              Dust Storm                IDAHO      2
+              Dust Storm               KANSAS      6
+              Dust Storm               NEVADA      2
+              Dust Storm           NEW MEXICO      8
+              Dust Storm                TEXAS     12
+              Dust Storm           WASHINGTON      3
+          Excessive Heat              ARIZONA     44
+          Excessive Heat             ARKANSAS      4
+          Excessive Heat           CALIFORNIA     16
+          Excessive Heat          CONNECTICUT      2
+          Excessive Heat             DELAWARE      3
+          Excessive Heat DISTRICT OF COLUMBIA      1
+          Excessive Heat             ILLINOIS      1
+          Excessive Heat             MARYLAND      7
+          Excessive Heat            MINNESOTA     30
+          Excessive Heat               NEVADA      5
+          Excessive Heat           NEW JERSEY     24
+          Excessive Heat             NEW YORK     10
+          Excessive Heat             OKLAHOMA     31
+          Excessive Heat         PENNSYLVANIA     17
+          Excessive Heat                TEXAS      1
+          Excessive Heat             VIRGINIA      1
+ Extreme Cold/Wind Chill               ALASKA      5
+ Extreme Cold/Wind Chill              ARIZONA      3
+ Extreme Cold/Wind Chill           CALIFORNIA      2
+ Extreme Cold/Wind Chill                IDAHO     16
+ Extreme Cold/Wind Chill                 IOWA      5
+ Extreme Cold/Wind Chill               KANSAS      1
+ Extreme Cold/Wind Chill             MICHIGAN      2
+ Extreme Cold/Wind Chill            MINNESOTA    142
+ Extreme Cold/Wind Chill              MONTANA     30
+ Extreme Cold/Wind Chill             NEBRASKA     24
+ Extreme Cold/Wind Chill         NORTH DAKOTA    228
+ Extreme Cold/Wind Chill               OREGON     25
+ Extreme Cold/Wind Chill         SOUTH DAKOTA     93
+ Extreme Cold/Wind Chill           WASHINGTON      7
+ Extreme Cold/Wind Chill              WYOMING      5
+             Flash Flood              ALABAMA    138
+             Flash Flood              ARIZONA    145
+             Flash Flood             ARKANSAS    122
+             Flash Flood           CALIFORNIA    119
+             Flash Flood             COLORADO    147
+             Flash Flood          CONNECTICUT     33
+             Flash Flood             DELAWARE     24
+             Flash Flood DISTRICT OF COLUMBIA      5
+             Flash Flood              FLORIDA     78
+             Flash Flood              GEORGIA    128
+             Flash Flood               HAWAII     38
+             Flash Flood                IDAHO     28
+             Flash Flood             ILLINOIS    156
+             Flash Flood              INDIANA     64
+             Flash Flood                 IOWA    167
+             Flash Flood               KANSAS    108
+             Flash Flood             KENTUCKY    175
+             Flash Flood            LOUISIANA     65
+             Flash Flood                MAINE     24
+             Flash Flood             MARYLAND     53
+             Flash Flood        MASSACHUSETTS     28
+             Flash Flood             MICHIGAN     12
+             Flash Flood            MINNESOTA     49
+             Flash Flood          MISSISSIPPI    101
+             Flash Flood             MISSOURI    274
+             Flash Flood              MONTANA     43
+             Flash Flood             NEBRASKA     20
+             Flash Flood               NEVADA     61
+             Flash Flood        NEW HAMPSHIRE     20
+             Flash Flood           NEW JERSEY     93
+             Flash Flood           NEW MEXICO    161
+             Flash Flood             NEW YORK    220
+             Flash Flood       NORTH CAROLINA    150
+             Flash Flood         NORTH DAKOTA     21
+             Flash Flood                 OHIO    130
+             Flash Flood             OKLAHOMA     88
+             Flash Flood               OREGON      5
+             Flash Flood         PENNSYLVANIA    182
+             Flash Flood          PUERTO RICO     70
+             Flash Flood         RHODE ISLAND      3
+             Flash Flood       SOUTH CAROLINA    135
+             Flash Flood         SOUTH DAKOTA     33
+             Flash Flood            TENNESSEE     95
+             Flash Flood                TEXAS    244
+             Flash Flood                 UTAH    117
+             Flash Flood              VERMONT     43
+             Flash Flood       VIRGIN ISLANDS     10
+             Flash Flood             VIRGINIA    118
+             Flash Flood           WASHINGTON     17
+             Flash Flood        WEST VIRGINIA     67
+             Flash Flood            WISCONSIN     33
+             Flash Flood              WYOMING     24
+                   Flood              ALABAMA     38
+                   Flood               ALASKA     23
+                   Flood              ARIZONA      8
+                   Flood             ARKANSAS     65
+                   Flood           CALIFORNIA     19
+                   Flood             COLORADO     26
+                   Flood          CONNECTICUT      1
+                   Flood             DELAWARE      8
+                   Flood              FLORIDA     36
+                   Flood              GEORGIA     23
+                   Flood                 GUAM      3
+                   Flood               HAWAII      2
+                   Flood             ILLINOIS    177
+                   Flood              INDIANA    112
+                   Flood                 IOWA    149
+                   Flood               KANSAS     90
+                   Flood             KENTUCKY    143
+                   Flood            LOUISIANA      8
+                   Flood                MAINE      6
+                   Flood             MARYLAND      4
+                   Flood        MASSACHUSETTS     33
+                   Flood             MICHIGAN     38
+                   Flood            MINNESOTA     37
+                   Flood             MISSOURI    184
+                   Flood              MONTANA     22
+                   Flood             NEBRASKA     28
+                   Flood        NEW HAMPSHIRE      5
+                   Flood           NEW JERSEY     48
+                   Flood           NEW MEXICO     45
+                   Flood             NEW YORK     33
+                   Flood       NORTH CAROLINA     66
+                   Flood         NORTH DAKOTA     28
+                   Flood                 OHIO     92
+                   Flood             OKLAHOMA     16
+                   Flood               OREGON      4
+                   Flood         PENNSYLVANIA    134
+                   Flood          PUERTO RICO     85
+                   Flood         RHODE ISLAND     13
+                   Flood       SOUTH CAROLINA     58
+                   Flood         SOUTH DAKOTA     28
+                   Flood            TENNESSEE     45
+                   Flood                TEXAS     34
+                   Flood                 UTAH      6
+                   Flood              VERMONT      9
+                   Flood       VIRGIN ISLANDS     14
+                   Flood             VIRGINIA     29
+                   Flood           WASHINGTON      5
+                   Flood        WEST VIRGINIA     31
+                   Flood            WISCONSIN     63
+                   Flood              WYOMING      2
+            Freezing Fog             ARKANSAS      2
+            Freezing Fog           NEW MEXICO      1
+            Freezing Fog             OKLAHOMA      2
+            Freezing Fog                TEXAS     19
+            Freezing Fog             VIRGINIA      1
+            Frost/Freeze              ALABAMA     13
+            Frost/Freeze               ALASKA      2
+            Frost/Freeze              ARIZONA     19
+            Frost/Freeze             ARKANSAS     25
+            Frost/Freeze           CALIFORNIA    100
+            Frost/Freeze             COLORADO     25
+            Frost/Freeze DISTRICT OF COLUMBIA      1
+            Frost/Freeze              FLORIDA     24
+            Frost/Freeze                IDAHO      1
+            Frost/Freeze             ILLINOIS     55
+            Frost/Freeze              INDIANA     18
+            Frost/Freeze             KENTUCKY     66
+            Frost/Freeze             MARYLAND     34
+            Frost/Freeze             MICHIGAN     29
+            Frost/Freeze             MISSOURI     33
+            Frost/Freeze               NEVADA      3
+            Frost/Freeze             NEW YORK     44
+            Frost/Freeze               OREGON     73
+            Frost/Freeze            TENNESSEE      3
+            Frost/Freeze                TEXAS      4
+            Frost/Freeze                 UTAH     12
+            Frost/Freeze             VIRGINIA     52
+            Frost/Freeze        WEST VIRGINIA     28
+            Funnel Cloud              ALABAMA      1
+            Funnel Cloud              ARIZONA      5
+            Funnel Cloud             ARKANSAS     12
+            Funnel Cloud           CALIFORNIA      2
+            Funnel Cloud             COLORADO      4
+            Funnel Cloud             DELAWARE      2
+            Funnel Cloud              FLORIDA     35
+            Funnel Cloud              GEORGIA      2
+            Funnel Cloud               HAWAII      2
+            Funnel Cloud             ILLINOIS     11
+            Funnel Cloud              INDIANA      4
+            Funnel Cloud                 IOWA     44
+            Funnel Cloud               KANSAS      3
+            Funnel Cloud             KENTUCKY      9
+            Funnel Cloud            LOUISIANA      9
+            Funnel Cloud             MARYLAND      1
+            Funnel Cloud             MICHIGAN      2
+            Funnel Cloud            MINNESOTA     13
+            Funnel Cloud          MISSISSIPPI      1
+            Funnel Cloud             MISSOURI     10
+            Funnel Cloud              MONTANA     10
+            Funnel Cloud             NEBRASKA     14
+            Funnel Cloud           NEW MEXICO     13
+            Funnel Cloud             NEW YORK      2
+            Funnel Cloud       NORTH CAROLINA      2
+            Funnel Cloud         NORTH DAKOTA     15
+            Funnel Cloud                 OHIO      1
+            Funnel Cloud               OREGON      3
+            Funnel Cloud         PENNSYLVANIA      4
+            Funnel Cloud       SOUTH CAROLINA      2
+            Funnel Cloud         SOUTH DAKOTA      4
+            Funnel Cloud            TENNESSEE      1
+            Funnel Cloud                TEXAS     18
+            Funnel Cloud                 UTAH      2
+            Funnel Cloud             VIRGINIA      4
+            Funnel Cloud           WASHINGTON      2
+            Funnel Cloud            WISCONSIN     13
+            Funnel Cloud              WYOMING     10
+                    Hail              ALABAMA    120
+                    Hail              ARIZONA     27
+                    Hail             ARKANSAS     59
+                    Hail           CALIFORNIA     21
+                    Hail             COLORADO    148
+                    Hail          CONNECTICUT      6
+                    Hail             DELAWARE      2
+                    Hail              FLORIDA     60
+                    Hail              GEORGIA     84
+                    Hail               HAWAII      2
+                    Hail                IDAHO     19
+                    Hail             ILLINOIS    281
+                    Hail              INDIANA     81
+                    Hail                 IOWA    495
+                    Hail               KANSAS    444
+                    Hail             KENTUCKY     39
+                    Hail            LOUISIANA    100
+                    Hail                MAINE     17
+                    Hail             MARYLAND     15
+                    Hail        MASSACHUSETTS     32
+                    Hail             MICHIGAN    129
+                    Hail            MINNESOTA    257
+                    Hail          MISSISSIPPI    135
+                    Hail             MISSOURI    310
+                    Hail              MONTANA    396
+                    Hail             NEBRASKA    648
+                    Hail               NEVADA     11
+                    Hail        NEW HAMPSHIRE     21
+                    Hail           NEW JERSEY     10
+                    Hail           NEW MEXICO    133
+                    Hail             NEW YORK    207
+                    Hail       NORTH CAROLINA     44
+                    Hail         NORTH DAKOTA    201
+                    Hail                 OHIO    207
+                    Hail             OKLAHOMA    267
+                    Hail               OREGON     36
+                    Hail         PENNSYLVANIA     93
+                    Hail          PUERTO RICO      7
+                    Hail         RHODE ISLAND      1
+                    Hail       SOUTH CAROLINA     46
+                    Hail         SOUTH DAKOTA    447
+                    Hail            TENNESSEE     50
+                    Hail                TEXAS    998
+                    Hail                 UTAH     21
+                    Hail              VERMONT     22
+                    Hail             VIRGINIA     62
+                    Hail           WASHINGTON      8
+                    Hail        WEST VIRGINIA     32
+                    Hail            WISCONSIN    167
+                    Hail              WYOMING    322
+                    Heat              ALABAMA      6
+                    Heat              ARIZONA      1
+                    Heat             ARKANSAS      1
+                    Heat           CALIFORNIA     15
+                    Heat             DELAWARE      6
+                    Heat DISTRICT OF COLUMBIA      1
+                    Heat                IDAHO      6
+                    Heat             ILLINOIS     64
+                    Heat              INDIANA      6
+                    Heat                 IOWA     21
+                    Heat               KANSAS      5
+                    Heat             KENTUCKY     17
+                    Heat             MARYLAND     34
+                    Heat        MASSACHUSETTS      1
+                    Heat             MICHIGAN     18
+                    Heat            MINNESOTA      1
+                    Heat             MISSOURI     54
+                    Heat             NEBRASKA     16
+                    Heat               NEVADA      7
+                    Heat           NEW JERSEY     49
+                    Heat           NEW MEXICO      1
+                    Heat             NEW YORK      1
+                    Heat         PENNSYLVANIA     26
+                    Heat         RHODE ISLAND      1
+                    Heat                TEXAS      1
+                    Heat                 UTAH      3
+                    Heat             VIRGINIA     19
+                    Heat            WISCONSIN      2
+              Heavy Rain              ALABAMA     12
+              Heavy Rain       AMERICAN SAMOA      1
+              Heavy Rain              ARIZONA     55
+              Heavy Rain             ARKANSAS     30
+              Heavy Rain           CALIFORNIA      4
+              Heavy Rain             COLORADO     17
+              Heavy Rain             DELAWARE      1
+              Heavy Rain              FLORIDA     27
+              Heavy Rain              GEORGIA      7
+              Heavy Rain               HAWAII    145
+              Heavy Rain                IDAHO      4
+              Heavy Rain             ILLINOIS     26
+              Heavy Rain              INDIANA     20
+              Heavy Rain                 IOWA    167
+              Heavy Rain               KANSAS     48
+              Heavy Rain             KENTUCKY     49
+              Heavy Rain            LOUISIANA     12
+              Heavy Rain             MARYLAND      3
+              Heavy Rain             MICHIGAN      5
+              Heavy Rain            MINNESOTA     72
+              Heavy Rain             MISSOURI     66
+              Heavy Rain              MONTANA     27
+              Heavy Rain             NEBRASKA     63
+              Heavy Rain               NEVADA      2
+              Heavy Rain           NEW MEXICO      7
+              Heavy Rain       NORTH CAROLINA     11
+              Heavy Rain         NORTH DAKOTA      7
+              Heavy Rain                 OHIO     29
+              Heavy Rain             OKLAHOMA     10
+              Heavy Rain               OREGON      1
+              Heavy Rain         PENNSYLVANIA      6
+              Heavy Rain          PUERTO RICO     25
+              Heavy Rain       SOUTH CAROLINA     22
+              Heavy Rain         SOUTH DAKOTA      6
+              Heavy Rain            TENNESSEE     15
+              Heavy Rain                TEXAS    119
+              Heavy Rain                 UTAH      2
+              Heavy Rain             VIRGINIA     36
+              Heavy Rain           WASHINGTON      6
+              Heavy Rain        WEST VIRGINIA     19
+              Heavy Rain            WISCONSIN     34
+              Heavy Rain              WYOMING      2
+              Heavy Snow              ALABAMA     16
+              Heavy Snow               ALASKA     25
+              Heavy Snow              ARIZONA     30
+              Heavy Snow             ARKANSAS      5
+              Heavy Snow           CALIFORNIA     21
+              Heavy Snow             COLORADO     77
+              Heavy Snow          CONNECTICUT     21
+              Heavy Snow              GEORGIA     17
+              Heavy Snow                IDAHO     60
+              Heavy Snow             ILLINOIS     61
+              Heavy Snow              INDIANA     48
+              Heavy Snow                 IOWA    141
+              Heavy Snow               KANSAS     67
+              Heavy Snow             KENTUCKY      2
+              Heavy Snow            LOUISIANA      1
+              Heavy Snow                MAINE     75
+              Heavy Snow             MARYLAND      4
+              Heavy Snow        MASSACHUSETTS     80
+              Heavy Snow             MICHIGAN     38
+              Heavy Snow            MINNESOTA     57
+              Heavy Snow          MISSISSIPPI     28
+              Heavy Snow             MISSOURI     36
+              Heavy Snow              MONTANA    244
+              Heavy Snow             NEBRASKA     86
+              Heavy Snow               NEVADA     30
+              Heavy Snow        NEW HAMPSHIRE     66
+              Heavy Snow           NEW JERSEY     12
+              Heavy Snow           NEW MEXICO     99
+              Heavy Snow             NEW YORK     36
+              Heavy Snow       NORTH CAROLINA      4
+              Heavy Snow         NORTH DAKOTA     77
+              Heavy Snow                 OHIO     11
+              Heavy Snow             OKLAHOMA     22
+              Heavy Snow               OREGON     32
+              Heavy Snow         PENNSYLVANIA     39
+              Heavy Snow         RHODE ISLAND     10
+              Heavy Snow         SOUTH DAKOTA     24
+              Heavy Snow                TEXAS     24
+              Heavy Snow                 UTAH      9
+              Heavy Snow             VIRGINIA     47
+              Heavy Snow           WASHINGTON     23
+              Heavy Snow        WEST VIRGINIA     36
+              Heavy Snow            WISCONSIN     21
+              Heavy Snow              WYOMING     22
+               High Surf           CALIFORNIA      5
+               High Surf                 GUAM      3
+               High Surf               HAWAII    361
+               High Surf       NORTH CAROLINA      1
+               High Surf          PUERTO RICO      4
+               High Wind              ALABAMA      4
+               High Wind               ALASKA     54
+               High Wind              ARIZONA     30
+               High Wind           CALIFORNIA    155
+               High Wind             COLORADO     39
+               High Wind          CONNECTICUT      8
+               High Wind             DELAWARE      6
+               High Wind              GEORGIA      1
+               High Wind                 GUAM      1
+               High Wind               HAWAII     28
+               High Wind                IDAHO     12
+               High Wind             ILLINOIS      6
+               High Wind              INDIANA      2
+               High Wind                 IOWA     14
+               High Wind               KANSAS     30
+               High Wind             KENTUCKY      1
+               High Wind            LOUISIANA      1
+               High Wind             MARYLAND      1
+               High Wind        MASSACHUSETTS     50
+               High Wind             MICHIGAN     59
+               High Wind            MINNESOTA      3
+               High Wind          MISSISSIPPI      3
+               High Wind             MISSOURI      3
+               High Wind              MONTANA    335
+               High Wind             NEBRASKA     25
+               High Wind               NEVADA     21
+               High Wind        NEW HAMPSHIRE      5
+               High Wind           NEW JERSEY     24
+               High Wind           NEW MEXICO    149
+               High Wind             NEW YORK     83
+               High Wind       NORTH CAROLINA     11
+               High Wind         NORTH DAKOTA     12
+               High Wind                 OHIO      3
+               High Wind             OKLAHOMA     25
+               High Wind               OREGON     44
+               High Wind         PENNSYLVANIA      1
+               High Wind         RHODE ISLAND      8
+               High Wind       SOUTH CAROLINA      1
+               High Wind         SOUTH DAKOTA     74
+               High Wind            TENNESSEE     51
+               High Wind                TEXAS    270
+               High Wind                 UTAH     18
+               High Wind             VIRGINIA      8
+               High Wind           WASHINGTON     26
+               High Wind        WEST VIRGINIA      1
+               High Wind            WISCONSIN      6
+               High Wind              WYOMING    477
+               Hurricane                 GUAM      2
+               Ice Storm               ALASKA     29
+               Ice Storm             ARKANSAS     26
+               Ice Storm             ILLINOIS      1
+               Ice Storm                 IOWA     16
+               Ice Storm             KENTUCKY      5
+               Ice Storm            LOUISIANA      5
+               Ice Storm                MAINE      7
+               Ice Storm             MARYLAND      1
+               Ice Storm             MICHIGAN     23
+               Ice Storm            MINNESOTA      7
+               Ice Storm          MISSISSIPPI     19
+               Ice Storm             MISSOURI      9
+               Ice Storm           NEW MEXICO      9
+               Ice Storm             NEW YORK     15
+               Ice Storm       NORTH CAROLINA      2
+               Ice Storm                 OHIO      4
+               Ice Storm             OKLAHOMA     27
+               Ice Storm         PENNSYLVANIA      8
+               Ice Storm            TENNESSEE     21
+               Ice Storm                TEXAS     51
+               Ice Storm                 UTAH      3
+               Ice Storm              VERMONT      8
+               Ice Storm             VIRGINIA     13
+               Ice Storm        WEST VIRGINIA      7
+               Ice Storm            WISCONSIN      1
+        Lake-Effect Snow              INDIANA      8
+        Lake-Effect Snow             MICHIGAN     80
+        Lake-Effect Snow             NEW YORK     99
+        Lake-Effect Snow                 OHIO      3
+        Lake-Effect Snow         PENNSYLVANIA     14
+        Lake-Effect Snow                 UTAH      1
+               Lightning              ALABAMA     17
+               Lightning              ARIZONA     13
+               Lightning             ARKANSAS     22
+               Lightning           CALIFORNIA      1
+               Lightning             COLORADO      7
+               Lightning          CONNECTICUT      3
+               Lightning              FLORIDA     63
+               Lightning              GEORGIA     18
+               Lightning                 GUAM      1
+               Lightning               HAWAII      7
+               Lightning                IDAHO      4
+               Lightning             ILLINOIS     16
+               Lightning              INDIANA      3
+               Lightning                 IOWA      4
+               Lightning               KANSAS      2
+               Lightning             KENTUCKY      7
+               Lightning            LOUISIANA     10
+               Lightning                MAINE      2
+               Lightning             MARYLAND      3
+               Lightning        MASSACHUSETTS     24
+               Lightning             MICHIGAN      4
+               Lightning            MINNESOTA     14
+               Lightning          MISSISSIPPI      9
+               Lightning             MISSOURI      9
+               Lightning              MONTANA      3
+               Lightning             NEBRASKA      1
+               Lightning               NEVADA      4
+               Lightning        NEW HAMPSHIRE      4
+               Lightning           NEW JERSEY     19
+               Lightning           NEW MEXICO      5
+               Lightning             NEW YORK      6
+               Lightning       NORTH CAROLINA     10
+               Lightning                 OHIO      2
+               Lightning             OKLAHOMA      5
+               Lightning               OREGON      3
+               Lightning         PENNSYLVANIA     18
+               Lightning          PUERTO RICO      2
+               Lightning         RHODE ISLAND      2
+               Lightning       SOUTH CAROLINA      9
+               Lightning            TENNESSEE     19
+               Lightning                TEXAS     44
+               Lightning                 UTAH      5
+               Lightning              VERMONT      2
+               Lightning             VIRGINIA     15
+               Lightning           WASHINGTON      7
+               Lightning        WEST VIRGINIA      4
+               Lightning            WISCONSIN     11
+               Lightning              WYOMING      1
+        Marine Dense Fog       GULF OF MEXICO      1
+             Marine Hail       ATLANTIC SOUTH      1
+             Marine Hail       GULF OF MEXICO      7
+             Marine Hail           LAKE HURON      1
+             Marine Hail        LAKE MICHIGAN      3
+             Marine Hail        LAKE SUPERIOR      6
+        Marine High Wind       ATLANTIC NORTH      4
+        Marine High Wind       ATLANTIC SOUTH      1
+        Marine High Wind       GULF OF MEXICO     10
+        Marine High Wind        LAKE SUPERIOR     17
+      Marine Strong Wind       ATLANTIC SOUTH      3
+      Marine Strong Wind            E PACIFIC      3
+      Marine Strong Wind       GULF OF MEXICO      1
+Marine Thunderstorm Wind       ATLANTIC NORTH    387
+Marine Thunderstorm Wind       ATLANTIC SOUTH    208
+Marine Thunderstorm Wind       GULF OF MEXICO    480
+Marine Thunderstorm Wind            LAKE ERIE      7
+Marine Thunderstorm Wind           LAKE HURON     24
+Marine Thunderstorm Wind        LAKE MICHIGAN    100
+Marine Thunderstorm Wind        LAKE ST CLAIR     20
+Marine Thunderstorm Wind        LAKE SUPERIOR     57
+             Rip Current              ALABAMA      2
+             Rip Current              FLORIDA     34
+             Rip Current              GEORGIA      3
+             Rip Current                 GUAM      4
+             Rip Current              INDIANA      1
+             Rip Current             MICHIGAN      2
+             Rip Current       NORTH CAROLINA      6
+             Rip Current               OREGON      2
+             Rip Current          PUERTO RICO      2
+             Rip Current       SOUTH CAROLINA      7
+                   Sleet              ALABAMA      4
+                   Sleet                TEXAS      5
+             Sneakerwave           CALIFORNIA      2
+        Storm Surge/Tide              FLORIDA      3
+             Strong Wind              ALABAMA     26
+             Strong Wind               ALASKA      2
+             Strong Wind              ARIZONA      3
+             Strong Wind             ARKANSAS     45
+             Strong Wind           CALIFORNIA     67
+             Strong Wind          CONNECTICUT      6
+             Strong Wind             DELAWARE     23
+             Strong Wind              FLORIDA     14
+             Strong Wind              GEORGIA     21
+             Strong Wind                 GUAM      1
+             Strong Wind               HAWAII     13
+             Strong Wind                IDAHO      9
+             Strong Wind             ILLINOIS     14
+             Strong Wind              INDIANA      2
+             Strong Wind             KENTUCKY     27
+             Strong Wind            LOUISIANA      2
+             Strong Wind                MAINE     18
+             Strong Wind             MARYLAND     19
+             Strong Wind        MASSACHUSETTS     35
+             Strong Wind             MICHIGAN      1
+             Strong Wind            MINNESOTA      1
+             Strong Wind          MISSISSIPPI     16
+             Strong Wind             MISSOURI     14
+             Strong Wind              MONTANA      8
+             Strong Wind               NEVADA      5
+             Strong Wind        NEW HAMPSHIRE     18
+             Strong Wind           NEW JERSEY    101
+             Strong Wind           NEW MEXICO      2
+             Strong Wind             NEW YORK     25
+             Strong Wind       NORTH CAROLINA     32
+             Strong Wind                 OHIO      1
+             Strong Wind               OREGON      4
+             Strong Wind         PENNSYLVANIA     45
+             Strong Wind         RHODE ISLAND      8
+             Strong Wind       SOUTH CAROLINA     33
+             Strong Wind            TENNESSEE     25
+             Strong Wind                TEXAS     11
+             Strong Wind                 UTAH      1
+             Strong Wind              VERMONT     25
+             Strong Wind             VIRGINIA      1
+             Strong Wind           WASHINGTON     11
+             Strong Wind        WEST VIRGINIA      2
+             Strong Wind            WISCONSIN     34
+       Thunderstorm Wind              ALABAMA    404
+       Thunderstorm Wind              ARIZONA     99
+       Thunderstorm Wind             ARKANSAS    319
+       Thunderstorm Wind           CALIFORNIA     30
+       Thunderstorm Wind             COLORADO     56
+       Thunderstorm Wind          CONNECTICUT     48
+       Thunderstorm Wind             DELAWARE     23
+       Thunderstorm Wind DISTRICT OF COLUMBIA      6
+       Thunderstorm Wind              FLORIDA    196
+       Thunderstorm Wind              GEORGIA    454
+       Thunderstorm Wind               HAWAII      4
+       Thunderstorm Wind                IDAHO     47
+       Thunderstorm Wind             ILLINOIS    512
+       Thunderstorm Wind              INDIANA    404
+       Thunderstorm Wind                 IOWA    430
+       Thunderstorm Wind               KANSAS    373
+       Thunderstorm Wind             KENTUCKY    275
+       Thunderstorm Wind            LOUISIANA    260
+       Thunderstorm Wind                MAINE    120
+       Thunderstorm Wind             MARYLAND    172
+       Thunderstorm Wind        MASSACHUSETTS     67
+       Thunderstorm Wind             MICHIGAN    393
+       Thunderstorm Wind            MINNESOTA    212
+       Thunderstorm Wind          MISSISSIPPI    218
+       Thunderstorm Wind             MISSOURI    386
+       Thunderstorm Wind              MONTANA    309
+       Thunderstorm Wind             NEBRASKA    269
+       Thunderstorm Wind               NEVADA     43
+       Thunderstorm Wind        NEW HAMPSHIRE    109
+       Thunderstorm Wind           NEW JERSEY    124
+       Thunderstorm Wind           NEW MEXICO     93
+       Thunderstorm Wind             NEW YORK    324
+       Thunderstorm Wind       NORTH CAROLINA    341
+       Thunderstorm Wind         NORTH DAKOTA    132
+       Thunderstorm Wind                 OHIO    811
+       Thunderstorm Wind             OKLAHOMA    299
+       Thunderstorm Wind               OREGON     35
+       Thunderstorm Wind         PENNSYLVANIA    818
+       Thunderstorm Wind          PUERTO RICO     12
+       Thunderstorm Wind         RHODE ISLAND      3
+       Thunderstorm Wind       SOUTH CAROLINA    365
+       Thunderstorm Wind         SOUTH DAKOTA    222
+       Thunderstorm Wind            TENNESSEE    364
+       Thunderstorm Wind                TEXAS    688
+       Thunderstorm Wind                 UTAH     58
+       Thunderstorm Wind              VERMONT    104
+       Thunderstorm Wind       VIRGIN ISLANDS      3
+       Thunderstorm Wind             VIRGINIA    440
+       Thunderstorm Wind           WASHINGTON     56
+       Thunderstorm Wind        WEST VIRGINIA    219
+       Thunderstorm Wind            WISCONSIN    235
+       Thunderstorm Wind              WYOMING     97
+                 Tornado              ALABAMA     21
+                 Tornado              ARIZONA      1
+                 Tornado             ARKANSAS     41
+                 Tornado           CALIFORNIA      5
+                 Tornado             COLORADO     26
+                 Tornado          CONNECTICUT      4
+                 Tornado              FLORIDA     27
+                 Tornado              GEORGIA     25
+                 Tornado                IDAHO      6
+                 Tornado             ILLINOIS     68
+                 Tornado              INDIANA     53
+                 Tornado                 IOWA     30
+                 Tornado               KANSAS     29
+                 Tornado             KENTUCKY     44
+                 Tornado            LOUISIANA     40
+                 Tornado                MAINE      1
+                 Tornado             MARYLAND     10
+                 Tornado        MASSACHUSETTS      2
+                 Tornado             MICHIGAN     14
+                 Tornado            MINNESOTA     13
+                 Tornado          MISSISSIPPI     36
+                 Tornado             MISSOURI     40
+                 Tornado              MONTANA      5
+                 Tornado             NEBRASKA     51
+                 Tornado           NEW JERSEY      3
+                 Tornado           NEW MEXICO      2
+                 Tornado             NEW YORK      5
+                 Tornado       NORTH CAROLINA     10
+                 Tornado         NORTH DAKOTA      8
+                 Tornado                 OHIO     37
+                 Tornado             OKLAHOMA     83
+                 Tornado               OREGON      3
+                 Tornado         PENNSYLVANIA      9
+                 Tornado          PUERTO RICO      1
+                 Tornado       SOUTH CAROLINA      8
+                 Tornado         SOUTH DAKOTA     12
+                 Tornado            TENNESSEE     47
+                 Tornado                TEXAS     83
+                 Tornado                 UTAH      1
+                 Tornado             VIRGINIA      5
+                 Tornado           WASHINGTON      2
+                 Tornado            WISCONSIN     23
+                 Tornado              WYOMING      8
+          Tropical Storm       AMERICAN SAMOA      2
+          Tropical Storm              GEORGIA     12
+          Tropical Storm               HAWAII      9
+          Tropical Storm          PUERTO RICO     10
+          Tropical Storm       SOUTH CAROLINA     33
+                 Tsunami             DELAWARE      1
+                 Tsunami           NEW JERSEY      4
+              Waterspout       ATLANTIC NORTH      2
+              Waterspout       ATLANTIC SOUTH     59
+              Waterspout            E PACIFIC      3
+              Waterspout       GULF OF MEXICO    103
+              Waterspout        HAWAII WATERS      3
+              Waterspout            LAKE ERIE      9
+              Waterspout        LAKE MICHIGAN      6
+                Wildfire              ARIZONA      6
+                Wildfire             ARKANSAS      2
+                Wildfire           CALIFORNIA     35
+                Wildfire             COLORADO      8
+                Wildfire             DELAWARE      1
+                Wildfire              GEORGIA     21
+                Wildfire               HAWAII     10
+                Wildfire                IDAHO     20
+                Wildfire            LOUISIANA      1
+                Wildfire             MISSOURI      1
+                Wildfire              MONTANA      4
+                Wildfire               NEVADA      3
+                Wildfire           NEW JERSEY     10
+                Wildfire           NEW MEXICO      8
+                Wildfire               OREGON     19
+                Wildfire         PENNSYLVANIA      2
+                Wildfire          PUERTO RICO      2
+                Wildfire       SOUTH CAROLINA      1
+                Wildfire                TEXAS     12
+                Wildfire                 UTAH      2
+                Wildfire           WASHINGTON     14
+                Wildfire              WYOMING      2
+            Winter Storm               ALASKA     41
+            Winter Storm              ARIZONA     12
+            Winter Storm             ARKANSAS     56
+            Winter Storm           CALIFORNIA     13
+            Winter Storm             COLORADO    178
+            Winter Storm          CONNECTICUT      2
+            Winter Storm             DELAWARE      1
+            Winter Storm                IDAHO     25
+            Winter Storm             ILLINOIS    111
+            Winter Storm              INDIANA     38
+            Winter Storm                 IOWA    170
+            Winter Storm               KANSAS    100
+            Winter Storm             KENTUCKY     31
+            Winter Storm            LOUISIANA      1
+            Winter Storm             MARYLAND     27
+            Winter Storm             MICHIGAN     93
+            Winter Storm            MINNESOTA    286
+            Winter Storm             MISSOURI    239
+            Winter Storm              MONTANA    120
+            Winter Storm             NEBRASKA    105
+            Winter Storm           NEW JERSEY     39
+            Winter Storm           NEW MEXICO      4
+            Winter Storm             NEW YORK     71
+            Winter Storm       NORTH CAROLINA      6
+            Winter Storm         NORTH DAKOTA     71
+            Winter Storm                 OHIO     24
+            Winter Storm             OKLAHOMA     43
+            Winter Storm         PENNSYLVANIA     76
+            Winter Storm         SOUTH DAKOTA    108
+            Winter Storm            TENNESSEE     20
+            Winter Storm                TEXAS    116
+            Winter Storm                 UTAH     91
+            Winter Storm              VERMONT     41
+            Winter Storm             VIRGINIA     85
+            Winter Storm        WEST VIRGINIA     52
+            Winter Storm            WISCONSIN    112
+            Winter Storm              WYOMING    288
+          Winter Weather              ALABAMA     36
+          Winter Weather               ALASKA      5
+          Winter Weather              ARIZONA      1
+          Winter Weather             ARKANSAS    183
+          Winter Weather           CALIFORNIA     11
+          Winter Weather             COLORADO    307
+          Winter Weather          CONNECTICUT      5
+          Winter Weather             DELAWARE     31
+          Winter Weather DISTRICT OF COLUMBIA      7
+          Winter Weather              GEORGIA      3
+          Winter Weather                IDAHO     24
+          Winter Weather             ILLINOIS    134
+          Winter Weather              INDIANA    109
+          Winter Weather                 IOWA    121
+          Winter Weather               KANSAS     39
+          Winter Weather             KENTUCKY     88
+          Winter Weather            LOUISIANA     30
+          Winter Weather                MAINE      4
+          Winter Weather             MARYLAND    154
+          Winter Weather        MASSACHUSETTS     38
+          Winter Weather             MICHIGAN    240
+          Winter Weather            MINNESOTA     21
+          Winter Weather          MISSISSIPPI     30
+          Winter Weather             MISSOURI     58
+          Winter Weather              MONTANA     64
+          Winter Weather             NEBRASKA     75
+          Winter Weather        NEW HAMPSHIRE      4
+          Winter Weather           NEW JERSEY    204
+          Winter Weather           NEW MEXICO      2
+          Winter Weather             NEW YORK     32
+          Winter Weather       NORTH CAROLINA     36
+          Winter Weather                 OHIO     57
+          Winter Weather             OKLAHOMA     67
+          Winter Weather         PENNSYLVANIA    197
+          Winter Weather         RHODE ISLAND     10
+          Winter Weather       SOUTH CAROLINA      5
+          Winter Weather         SOUTH DAKOTA     46
+          Winter Weather            TENNESSEE    111
+          Winter Weather                TEXAS    260
+          Winter Weather                 UTAH     36
+          Winter Weather              VERMONT     18
+          Winter Weather             VIRGINIA    359
+          Winter Weather           WASHINGTON      5
+          Winter Weather        WEST VIRGINIA    184
+          Winter Weather            WISCONSIN     59
+          Winter Weather              WYOMING    117

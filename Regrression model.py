@@ -10,14 +10,20 @@ from sklearn.svm import SVC
 # Load your dataset (replace 'test.csv' with the actual file path or place it in the same folder as the scripts)
 data = pd.read_csv('test.csv')
 
+# print (data['Event_Type'])
 # Data preprocessing
 # Encode categorical 'Event_Type' as numerical labels
 label_encoder = LabelEncoder()
 data['Event_Type'] = label_encoder.fit_transform(data['Event_Type'])
 
+# print (data['Event_Type'])
+
 # Split the dataset into features (X) and target (y)
 X = data.drop('Event_Type', axis=1)
 y = data['Event_Type']
+
+print (X, y)
+
 
 # Split the dataset into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
