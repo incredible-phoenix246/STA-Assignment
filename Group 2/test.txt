@@ -1,3 +1,0 @@
---- Test for Differences ---
-T-Test p-value: nan (p < 0.05 is considered not significant)
-P Value: 0.0735794548648743

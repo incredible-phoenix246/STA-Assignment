@@ -8,7 +8,7 @@ Created on Tue Oct 24 04:23:10 2023
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from scipy.stats import ttest_ind  # Import t-test from scipy.stats
+# from scipy.stats import ttest_ind  # Import t-test from scipy.stats
 
 # 1. Ask the user for the CSV file name
 csv_file_name = input("Enter the CSV file name: ")
@@ -23,6 +23,8 @@ data = pd.read_csv(csv_file_name)
 # 4. Extensive Data Cleaning
 # Drop rows with missing values
 data.dropna(subset=[event_column, property_column], inplace=True)
+
+edit = data.dropna(subset=[event_column, property_column], inplace=True)
 
 # Define a function to transform values like '1.3k' to 13000 and '1.3m' to 13000000
 def transform_property_cost(value):
@@ -89,7 +91,9 @@ with open('summary_report.txt', 'w') as report_file:
     report_file.write(f"Mode: {mode}\n")
     report_file.write("--- Standard Deviation ---\n")
     report_file.write(f"Standard Deviation: {std_deviation}\n")
+    
 
+'''
 # 9. Test for Differences in the Property Column
 # Example: Test if there's a significant difference between two groups
 group1 = data[data[event_column] == 'Group1']
@@ -107,9 +111,23 @@ with open('test.txt', 'w') as test_file:
     else:
         test_file.write('There is no significant difference between event types and states\n')
         test_file.write('P Value: {}'.format(p_value))
+'''
 
 
-# 11. Save the cleaned data to a new CSV with only specified columns
-data[[event_column, property_column]].to_csv('new.csv', index=False)
+# Apply the transformation to the 'Property_Cost' column
+def transform_property_cost(value):
+    value = str(value)  # Ensure it's a string
+    if 'k' in value:
+        return float(value.replace('k', '')) * 1000
+    elif 'm' in value:
+        return float(value.replace('m', '')) * 1000000
+    else:
+        return float(value)
+
+data[property_column] = data[property_column].apply(transform_property_cost)
+
+# 5. Save the cleaned data with transformed 'Property_Cost' values to a new CSV file
+data.to_csv('withoutk.csv', index=False)
+
 
 print("Summary report saved as 'summary_report.txt', test results are saved as 'test.txt', your cleaned CSV file is saved as 'cleaned_data.csv', and the cleaned data with only the specified columns is exported to 'new.csv'.")
