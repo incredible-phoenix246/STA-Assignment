@@ -1,0 +1,69 @@
+Summary Report:
+--- Event_Type Summary ---
+Thunderstorm Wind           12081
+Hail                         7340
+Flash Flood                  4484
+Drought                      4357
+Winter Weather               3627
+Winter Storm                 2896
+High Wind                    2189
+Flood                        2176
+Heavy Snow                   1884
+Marine Thunderstorm Wind     1283
+Heavy Rain                   1220
+Tornado                       942
+Strong Wind                   771
+Frost/Freeze                  664
+Dense Fog                     606
+Extreme Cold/Wind Chill       588
+Blizzard                      542
+Lightning                     464
+Cold/Wind Chill               389
+Heat                          383
+High Surf                     374
+Ice Storm                     317
+Funnel Cloud                  292
+Lake-Effect Snow              205
+Excessive Heat                197
+Waterspout                    185
+Wildfire                      184
+Coastal Flood                  95
+Debris Flow                    71
+Dust Storm                     67
+Tropical Storm                 66
+Rip Current                    63
+Marine High Wind               32
+Avalanche                      29
+Astronomical Low Tide          26
+Freezing Fog                   25
+Marine Hail                    18
+Dust Devil                     10
+Sleet                           9
+Marine Strong Wind              7
+Tsunami                         5
+Storm Surge/Tide                3
+Dense Smoke                     3
+Hurricane                       2
+Sneakerwave                     2
+Marine Dense Fog                1
+Name: Event_Type, dtype: int64
+
+--- Property_Cost Summary ---
+count    5.117400e+04
+mean     1.723021e+05
+std      1.033376e+07
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      1.000000e+03
+max      2.000000e+09
+Name: Property_Cost, dtype: float64
+
+--- Mean ---
+Mean: 172302.10751553523
+--- Median ---
+Median: 0.0
+--- Mode ---
+Mode: 0.0
+--- Standard Deviation ---
+Standard Deviation: 10333760.338715766
