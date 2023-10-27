@@ -1,0 +1,42 @@
+Event_Type,precision,recall,f1-score,support
+Astronomical Low Tide,0,0,0,7
+Avalanche,0,0,0,4
+Blizzard,0.57,0.29,0.38,114
+Coastal Flood,0,0,0,23
+Cold/Wind Chill,0.34,0.13,0.19,89
+Debris Flow,0,0,0,11
+Dense Fog,0,0,0,123
+Drought,0.42,0.52,0.46,893
+Dust Storm,0,0,0,11
+Excessive Heat,0.86,0.2,0.32,30
+Extreme Cold/Wind Chill,0.53,0.8,0.64,113
+Flash Flood,0.4,0.32,0.35,898
+Flood,0.37,0.14,0.2,428
+Freezing Fog,0,0,0,4
+Frost/Freeze,0.47,0.58,0.52,119
+Funnel Cloud,0,0,0,59
+Hail,0.44,0.54,0.49,1454
+Heat,0.32,0.26,0.29,85
+Heavy Rain,0.27,0.06,0.1,235
+Heavy Snow,0.48,0.36,0.41,376
+High Surf,0.49,0.83,0.62,66
+High Wind,0.5,0.43,0.46,461
+Hurricane,0,0,0,1
+Ice Storm,0.19,0.08,0.12,71
+Lake-Effect Snow,0.43,0.34,0.38,35
+Lightning,0.14,0.01,0.02,90
+Marine Hail,0,0,0,2
+Marine High Wind,0.5,0.5,0.5,4
+Marine Strong Wind,0,0,0,1
+Marine Thunderstorm Wind,0.86,0.99,0.92,237
+Rip Current,0.33,0.06,0.1,18
+Sleet,0,0,0,2
+Strong Wind,0.45,0.21,0.29,153
+Thunderstorm Wind,0.52,0.68,0.59,2458
+Tornado,0,0,0,188
+Tropical Storm,0,0,0,13
+Tsunami,0,0,0,2
+Waterspout,0.75,0.08,0.15,36
+Wildfire,0.8,0.21,0.33,38
+Winter Storm,0.44,0.48,0.46,539
+Winter Weather,0.46,0.56,0.5,744
